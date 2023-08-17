@@ -7,7 +7,7 @@
  *
  * Return: 0(success)
  */
-int maun(void)
+int main(void)
 {
 	char letter;
 
