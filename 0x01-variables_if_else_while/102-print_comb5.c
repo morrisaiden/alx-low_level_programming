@@ -10,19 +10,19 @@
  */
 int main(void)
 {
-	int num1, num2;
+	int s, r;
 
-	for (num1 = 0; num1 <= 98; num1++)
+	for (s = 0; s <= 98; s++)
 	{
-		for (num2 = num1 + 1; num2 <= 98; num2++)
+		for (r = s + 1; r <= 99; r++)
 		{
-			putchar((num1 / 10) + '0');
-			putchar((num1 % 10) + '0');
+			putchar((s / 10) + '0');
+			putchar((s % 10) + '0');
 			putchar(' ');
-			putchar((num2 / 10) + '0');
-			putchar((num2 % 10) + '0');
+			putchar((r / 10) + '0');
+			putchar((r % 10) + '0');
 
-			if (num1 == 98 && num2 == 99)
+			if (s == 98 && r == 99)
 				continue;
 
 			putchar(',');
