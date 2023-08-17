@@ -19,7 +19,7 @@ int main(void)
 		{
 			for (s = r; s < '9'; s++)
 			{
-				if ((r != q) !s)
+				if ((r != q) !=s)
 				{
 					putchar(q);
 					putchar(r);
