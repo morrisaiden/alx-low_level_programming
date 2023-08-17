@@ -13,21 +13,24 @@ int main(void)
 {
 	int q, r, s;
 
-	for (q = 0; q < 8; q++)
+	for (q = '0'; q < '9'; q++)
 	{
-		for (r = q + 1; r < 9; r++)
+		for (r = q + 1; r < '9'; r++)
 		{
-			for (s = r; s < 10; s++)
+			for (s = r; s < '9'; s++)
 			{
-				putchar((q % 10) + '0');
-				putchar((r % 10) + '0');
-				putchar((s % 10) + '0');
-
-				if (q == 7 && r == 8 && s == 9)
-					continue;
-
-				putchar(',');
-				putchar(' ');
+				if ((r != q) !s)
+				{
+					putchar(q);
+					putchar(r);
+					putchar(s);
+	
+					if (q == '7' && r == '8')
+						continue;
+	
+					putchar(',');
+					putchar(' ');
+				}
 			}
 		}
 	}
