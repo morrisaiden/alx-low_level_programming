@@ -5,36 +5,34 @@
 /**
  * main - Entry point
  *
- * Return: 0(success)
- *
+ * Return: 0 (Success)
  */
 
 int main(void)
 {
-	int q, r, s;
+	int d, p, q;
 
-	for (q = '0'; q < '9'; q++)
+	for (d = '0'; d < '9'; d++)
 	{
-		for (r = q + 1; r <= '9'; r++)
+		for (p = d + 1; p <= '9'; p++)
 		{
-			for (s = r; s <= '9'; s++)
+			for (q = p + 1; q <= '9'; q++)
 			{
-				if ((r != q) !=s)
+				if ((p != d) != q)
 				{
+					putchar(d);
+					putchar(p);
 					putchar(q);
-					putchar(r);
-					putchar(s);
-	
-					if (q == '7' && r == '8')
+
+					if (d == '7' && p == '8')
 						continue;
-	
+
 					putchar(',');
 					putchar(' ');
 				}
 			}
 		}
 	}
-
 	putchar('\n');
 
 	return (0);
