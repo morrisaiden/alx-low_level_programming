@@ -1,18 +1,19 @@
 /*
- * file: 4-puts.c
- * Auth: morris <mwaimorris1997@gmail.com>
+ * File: 4-puts.c
+ * Auth: Brennan D Baraban <375@holbertonschool.com>
  */
 
 #include <stdio.h>
 
 /**
- * prints  "programming is like building a multilingual puzzle"
- * return: always  0.
+ * main - Prints "Programming is like building a multilingual
+ *                puzzle, followed by a new line.
+ *
+ * Return: Always 0.
  */
-
 int main(void)
-{   
-	puts("\"Proputs("\"Programming is like building a multilingual puzzle");
-     
+{
+	puts("\"Programming is like building a multilingual puzzle");
+
 	return (0);
 }
