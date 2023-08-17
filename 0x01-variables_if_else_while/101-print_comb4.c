@@ -15,9 +15,9 @@ int main(void)
 
 	for (q = '0'; q < '9'; q++)
 	{
-		for (r = q + 1; r < '9'; r++)
+		for (r = q + 1; r <= '9'; r++)
 		{
-			for (s = r; s < '9'; s++)
+			for (s = r; s <= '9'; s++)
 			{
 				if ((r != q) !=s)
 				{
