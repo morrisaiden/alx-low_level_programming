@@ -1,6 +1,6 @@
 /*
  * File: 5-printf.c
- * Auth: morrisaiden <.....@gmail.com>
+ * Auth: Morris G Mwai
  */
 
 #include <stdio.h>
