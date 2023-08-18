@@ -1,12 +1,9 @@
-#include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
+#include "holberton.h"
 
 /**
- * main - Entry point 
- *
- * Return: 0 (success)
- *
+ * _isupper - A function that checks for uppercase character.
+ * @c: An input character
+ * Return: 1 if c is uppercase or 0 otherwise
  */
 int _isupper(int c)
 {
