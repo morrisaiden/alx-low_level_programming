@@ -1,10 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - Entry point
- * Prints the first 98 Fibonacci numbers
+ * main - Entry point Prints the first 98 Fibonacci numbers, starting with 1 and 2, separated by a comma followed by a space.
  *
- * Retur: 0(success)
+ * Return: 0(success)
  *
  */
 
