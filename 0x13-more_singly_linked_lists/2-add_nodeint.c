@@ -2,7 +2,8 @@
 #include <string.h>
 
 /**
- * add_nodeint - A function that adds a new node at the begining of a listint_t list
+ * add_nodeint - A function that adds a new node at the
+ * begining of a listint_t list
  * @head: A pointer to structure
  * @n: An integer data to put into the new node
  * Return: the address of the new element, or NULL on failure
