@@ -3,8 +3,7 @@
 /**
  * create_file - a fn that creates a file,
  * @filename: A pointer to a file to create name
- * Return: 1 if func works 
- *            else -1;
+ * Return: 1 if func works else -1;
  */
 int create_file(const char *filename, char *text_content)
 {
