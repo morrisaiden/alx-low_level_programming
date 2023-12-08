@@ -1,5 +1,4 @@
 #include "lists.h"
-
 /**
  * dlistint_len - A function that gets the length of the list
  * @h: The head of the list
